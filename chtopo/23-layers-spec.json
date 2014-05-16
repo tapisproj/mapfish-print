@@ -1,0 +1,648 @@
+{"layout": "1 A4 landscape", "srs": "EPSG:21781", "units": "m", "rotation": 0, "app": "config", "lang": "fr", "dpi": "150", "layers": [
+  {
+    "layer": "ch.swisstopo.pixelkarte-farbe",
+    "opacity": 1,
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "jpeg",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20140106"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.naqua-grundwasser_psm",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20130305"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.bundesinventare-amphibien_anhang4",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20111205"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.bundesinventare-amphibien",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20070702"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.bundesinventare-amphibien_wanderobjekte",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20070702"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_kernzonen",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_laichplaetze",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-futterbau",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-getreidebau",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kartoffeln",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-koernermais",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-typ",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-zwischenfruchtbau",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.nabelstationen",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110309"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.niederschlagshaushalt",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.laerm-bahnlaerm_tag",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20061231"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bav.kataster-belasteter-standorte-oev",
+    "opacity": "1",
+    "type": "WMS",
+    "baseURL": "http://wms.geo.admin.ch/?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.0.0",
+    "layers": ["ch.bav.kataster-belasteter-standorte-oev"],
+    "styles": [""],
+    "format": "image/png",
+    "customParams": {
+      "EXCEPTIONS": "XML",
+      "TRANSPARENT": "true",
+      "CRS": "EPSG:21781"
+    },
+    "singleTile": true
+  },
+  {
+    "layer": "ch.bafu.schutzgebiete-biosphaerenreservate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20120109"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.laerm-bahnlaerm_nacht",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20061231"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "baseURL": "http://wms.geo.admin.ch/",
+    "opacity": 1,
+    "singleTile": true,
+    "type": "WMS",
+    "layers": ["org.epsg.grid_21781,org.epsg.grid_4326"],
+    "format": "image/png",
+    "styles": [""],
+    "customParams": {
+      "TRANSPARENT": true
+    }
+  }
+], "legends": [
+  {
+    "name": "Produits phytosanitaires",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.naqua-grundwasser_psm_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Batraciens sites de l’annexe 4",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.bundesinventare-amphibien_anhang4_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Batraciens objets fixes",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.bundesinventare-amphibien_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Batraciens objets itinérants",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.bundesinventare-amphibien_wanderobjekte_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Ombre: zones principales",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.fischerei-aeschen_kernzonen_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Ombre: frayères",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.fischerei-aeschen_laichplaetze_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Ombre: habitats larvaires",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.fischerei-aeschen_larvenhabitate_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - culture fourragère",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-futterbau_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - cultures céréalières",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-getreidebau_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - pommes de terre",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-kartoffeln_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - maïs grain",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-koernermais_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - terres cultivées",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-kulturland_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - cultures spéciales",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-spezialkulturen_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - vue d'ensemble",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-typ_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Climat - cultures dérobées",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.klimaeignung-zwischenfruchtbau_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Qualité de l'air: Stations NABEL",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.nabelstationen_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Régime pluviométrique",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.blw.niederschlagshaushalt_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Bruit ferroviaire en journée",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.laerm-bahnlaerm_tag_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Sites pollués transports publics",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bav.kataster-belasteter-standorte-oev_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Réserves de biosphère",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.schutzgebiete-biosphaerenreservate_fr.png"
+      }
+    ]
+  },
+  {
+    "name": "Bruit ferroviaire la nuit",
+    "classes": [
+      {
+        "name": "",
+        "icon": "http://api3.geo.admin.ch/static/images/legends/ch.bafu.laerm-bahnlaerm_nacht_fr.png"
+      }
+    ]
+  }
+], "enableLegends": true, "qrcodeurl": "http://api3.geo.admin.ch/qrcodegenerator?url=http%3A%2F%2Fmap.geo.admin.ch%2F%3Flang%3Dfr%26topic%3Dech%26bgLayer%3Dch.swisstopo.pixelkarte-farbe%26X%3D154646.12%26Y%3D622460.09%26zoom%3D4%26catalogNodes%3D457%2C532%26layers_opacity%3D0.75%2C1%2C0.75%2C1%2C1%2C1%2C1%2C0.75%2C0.75%2C0.75%2C0.75%2C0.75%2C0.75%2C0.75%2C0.75%2C1%2C0.75%2C0.75%2C1%2C1%2C0.75%26layers%3Dch.bafu.naqua-grundwasser_psm%2Cch.bafu.bundesinventare-amphibien_anhang4%2Cch.bafu.bundesinventare-amphibien%2Cch.bafu.bundesinventare-amphibien_wanderobjekte%2Cch.bafu.fischerei-aeschen_kernzonen%2Cch.bafu.fischerei-aeschen_laichplaetze%2Cch.bafu.fischerei-aeschen_larvenhabitate%2Cch.blw.klimaeignung-futterbau%2Cch.blw.klimaeignung-getreidebau%2Cch.blw.klimaeignung-kartoffeln%2Cch.blw.klimaeignung-koernermais%2Cch.blw.klimaeignung-kulturland%2Cch.blw.klimaeignung-spezialkulturen%2Cch.blw.klimaeignung-typ%2Cch.blw.klimaeignung-zwischenfruchtbau%2Cch.bafu.nabelstationen%2Cch.blw.niederschlagshaushalt%2Cch.bafu.laerm-bahnlaerm_tag%2Cch.bav.kataster-belasteter-standorte-oev%2Cch.bafu.schutzgebiete-biosphaerenreservate%2Cch.bafu.laerm-bahnlaerm_nacht", "pages": [
+  {
+    "center": [622460.0933712, 154646.12045440002],
+    "scale": "100000.0",
+    "dataOwner": "© swisstopo,OFEV,OFAG,OFT",
+    "shortLink": "http://s.geo.admin.ch/f49af9b09",
+    "rotation": 0,
+    "langfr": true
+  }
+]}

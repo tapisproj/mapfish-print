@@ -1,0 +1,43 @@
+{"layout": "1 A4 landscape", "srs": "EPSG:21781", "units": "m", "rotation": 0, "app": "config", "lang": "fr", "dpi": "150", "layers": [
+  {
+    "layer": "ch.swisstopo.pixelkarte-farbe",
+    "opacity": 1,
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "jpeg",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20140106"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "baseURL": "http://wms.geo.admin.ch/",
+    "opacity": 1,
+    "singleTile": true,
+    "type": "WMS",
+    "layers": ["org.epsg.grid_21781,org.epsg.grid_4326"],
+    "format": "image/png",
+    "styles": [""],
+    "customParams": {
+      "TRANSPARENT": true
+    }
+  }
+], "qrcodeurl": "http://api3.geo.admin.ch/qrcodegenerator?url=http%3A%2F%2Fmap.geo.admin.ch%2F%3FX%3D190000.00%26Y%3D660000.00%26zoom%3D0%26lang%3Dfr%26topic%3Dech%26bgLayer%3Dch.swisstopo.pixelkarte-farbe", "pages": [
+  {
+    "center": [660000.0000000002, 190000.0000000001],
+    "scale": "2500000.0",
+    "dataOwner": "© swisstopo",
+    "shortLink": "http://s.geo.admin.ch/e40883eec",
+    "rotation": 0,
+    "langfr": true
+  }
+]}
