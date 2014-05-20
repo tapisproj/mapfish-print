@@ -160,6 +160,206 @@
     "matrixSet": "21781"
   },
   {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.bafu.fischerei-aeschen_larvenhabitate",
+    "opacity": "1",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20110829"
+    },
+    "matrixSet": "21781"
+  },
+  {
     "layer": "ch.blw.klimaeignung-futterbau",
     "opacity": "0.75",
     "type": "WMTS",
@@ -241,6 +441,246 @@
   },
   {
     "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-kulturland",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
+    "opacity": "0.75",
+    "type": "WMTS",
+    "baseURL": "http://wmts.geo.admin.ch",
+    "maxExtent": [420000, 30000, 900000, 350000],
+    "tileOrigin": [420000, 350000],
+    "tileSize": [256, 256],
+    "resolutions": [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650, 500, 250, 100, 50, 20, 10, 5, 2.5, 2, 1.5, 1, 0.5],
+    "zoomOffset": 0,
+    "version": "1.0.0",
+    "requestEncoding": "REST",
+    "formatSuffix": "png",
+    "style": "default",
+    "dimensions": ["TIME"],
+    "params": {
+      "TIME": "20081024"
+    },
+    "matrixSet": "21781"
+  },
+  {
+    "layer": "ch.blw.klimaeignung-spezialkulturen",
     "opacity": "0.75",
     "type": "WMTS",
     "baseURL": "http://wmts.geo.admin.ch",
