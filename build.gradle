@@ -354,8 +354,9 @@ task run (dependsOn: compileJava) << {
 }
 run.description = 'Run mapfish print from commandline.  All commandline parameters apply. Execute task without system parameters to get help' 
 
+
 jettyRun {
-    httpPort = 8080
+    httpPort = 8083
     scanTargets = (fileTree("src/main/").include("webapp/WEB-INF/**") + fileTree(compileJava.destinationDir)).files
     reload = 'manual'
 }

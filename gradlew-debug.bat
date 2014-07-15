@@ -1,6 +1,6 @@
 @echo off
 
-set GRADLE_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
+set GRADLE_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005  -Dorg.mortbay.jetty.Request.maxFormContentSize=200000000
 
 set CMD_LINE_ARGS=
 
