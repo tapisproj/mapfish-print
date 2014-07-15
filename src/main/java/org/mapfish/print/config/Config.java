@@ -75,6 +75,7 @@ public class Config implements Closeable {
 
     private boolean ignoreCapabilities = false;
     private int maxPrintTimeBeforeWarningInSeconds = 30;
+    private int printTimeoutMinutes = 5;
 
     private ThreadResources threadResources;
 
@@ -588,6 +589,14 @@ public class Config implements Closeable {
 
     public int getMaxPrintTimeBeforeWarningInSeconds() {
         return maxPrintTimeBeforeWarningInSeconds;
+    }
+
+    public int getPrintTimeoutMinutes() {
+        return printTimeoutMinutes;
+    }
+
+    public void setPrintTimeoutMinutes(int printTimeoutMinutes) {
+        this.printTimeoutMinutes = printTimeoutMinutes;
     }
 
     public void setMaxPrintTimeBeforeWarningInSeconds(int maxPrintTimeBeforeWarningInSeconds) {
