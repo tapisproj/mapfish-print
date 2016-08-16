@@ -107,7 +107,7 @@ manifest.mainAttributes(
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
-compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked']
+compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked', '-Xdoclint:none']
 
 jar {
   enabled = true
