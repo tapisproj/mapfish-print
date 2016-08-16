@@ -104,10 +104,16 @@ manifest.mainAttributes(
 	'Build-Time': new Date().getDateTimeString(),
 	'git-revision': gitRevision())
 
-sourceCompatibility = 1.6
-targetCompatibility = 1.6
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked', '-Xdoclint:none']
+javadoc {
+    options.addBooleanOption('Xdoclint:none', true)
+}
+
+
+
 
 jar {
   enabled = true
