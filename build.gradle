@@ -107,7 +107,7 @@ manifest.mainAttributes(
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
-compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked', '-Xdoclint:none']
+compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked']
 javadoc {
     options.addBooleanOption('Xdoclint:none', true)
 }
