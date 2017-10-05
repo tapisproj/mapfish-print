@@ -108,9 +108,23 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 compileJava.options.compilerArgs = ['-Xlint:deprecation', '-Xlint:unchecked']
-javadoc {
-    options.addBooleanOption('Xdoclint:none', true)
+
+def systemPropertyTmpDir = System.getProperty("java.io.tmpdir")
+def systemPropertyFileSep = System.getProperty("file.separator")
+
+buildDir = new File(systemPropertyTmpDir + systemPropertyFileSep + "gradle-build")
+
+if (JavaVersion.current().isJava8Compatible()) {
+	allprojects {
+	  tasks.withType(javadoc) {
+		options.addBooleanOption('Xdoclint:none', true)
+	  }
+	}
 }
+	
+//javadoc {
+//    options.addBooleanOption('Xdoclint:none', true)
+//}
 
 
 
@@ -142,7 +156,6 @@ task standalone (type: Jar) {
 
   from sourceSets.main.output
 
-
   def dependencies = configurations.compile.resolve().findAll{ file ->
       return !file.name.contains("servlet-api")
   }
@@ -150,6 +163,7 @@ task standalone (type: Jar) {
   
   def serviceDir = new File("$buildDir/META-INF/services")
   def metaInfDir = new File("$buildDir/META-INF/")
+ 
 
   for(file in dependencies) {
     
@@ -162,6 +176,8 @@ task standalone (type: Jar) {
   }
 
   doFirst {
+  
+      
       
       serviceDir.deleteDir()
       serviceDir.mkdirs()
