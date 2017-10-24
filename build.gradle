@@ -115,11 +115,10 @@ def systemPropertyFileSep = System.getProperty("file.separator")
 buildDir = new File(systemPropertyTmpDir + systemPropertyFileSep + "gradle-build")
 
 if (JavaVersion.current().isJava8Compatible()) {
-	allprojects {
-	  tasks.withType(javadoc) {
-		options.addBooleanOption('Xdoclint:none', true)
-	  }
-	}
+  javadoc {
+      options.addBooleanOption('Xdoclint:none', true)
+  }
+
 }
 	
 //javadoc {
